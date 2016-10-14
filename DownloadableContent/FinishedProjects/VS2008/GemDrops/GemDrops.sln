@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemDrops", "GemDrops.csproj", "{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A} = {6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "..\GameEngine\GameEngine.csproj", "{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGLES", "..\OpenGLES\OpenGLES.csproj", "{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7B80E8-9B1B-4E5E-B140-3749A11CD8E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFFFF4A-D156-4EED-ABBC-DA26D1EA697A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

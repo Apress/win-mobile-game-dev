@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGLES", "..\OpenGLES\OpenGLES.csproj", "{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orbits", "Orbits.csproj", "{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF70FB24-4CF9-4C2D-87AB-418FD0F75A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E08C5C-98E2-4204-BAA9-6AC8F06F0B93}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://koushik-tfs:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OpenGLES\\OpenGLES.csproj
+		SccProjectName1 = OpenGLES
+		SccLocalPath1 = OpenGLES
+		SccProjectUniqueName2 = TestOpenGLES\\TestOpenGLES.csproj
+		SccProjectName2 = TestOpenGLES
+		SccLocalPath2 = TestOpenGLES
+		SccProjectUniqueName3 = TestOpenGLESSetup\\TestOpenGLESSetup.vddproj
+		SccProjectName3 = TestOpenGLESSetup
+		SccLocalPath3 = TestOpenGLESSetup
+		SccProjectUniqueName4 = OpenGLESUtilities\\OpenGLESUtilities.csproj
+		SccProjectName4 = OpenGLESUtilities
+		SccLocalPath4 = OpenGLESUtilities
+	EndGlobalSection
+EndGlobal
